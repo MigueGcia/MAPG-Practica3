@@ -1,0 +1,82 @@
+* {
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.padre {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.menu {
+    background-color: aqua;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100px;
+    align-items: center;
+}
+
+.logo {
+    background: olivedrab;
+    flex: 1 1 auto;
+    height: 30px;
+}
+
+.nav {
+    background: rebeccapurple;
+    flex: 5 1 auto;
+    height: 30px;
+}
+
+.social {
+    background: salmon;
+    flex: 1 1 auto;
+    height: 30px;
+}
+
+.texto-principal {
+    background: lawngreen;
+}
+
+h1 {
+    background: sienna;
+}
+
+.section {
+    background: black;
+}
+
+.articulos {
+    background: forestgreen;
+}
+
+.article {
+    background: violet;
+}
+
+.navegacion {
+    background: khaki;
+}
+
+.aside {
+    background: rebeccapurple;
+}
+
+.publicidad {
+    background: chocolate;
+}
+
+.footer {
+    background: black;
+}
+
+.pie {
+    background: crimson;
+}
